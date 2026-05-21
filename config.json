@@ -1,0 +1,16 @@
+{
+    "input": {
+        "joystick_index": 0,
+        "axis_index": 1,
+        "invert": true
+    },
+    "remapping": {
+        "dead_zone": 0.05,
+        "max_rate": 2.0,
+        "acceleration_power": 2.0
+    },
+    "output": {
+        "virtual_axis": "left_y"
+    },
+    "update_rate": 120
+}
