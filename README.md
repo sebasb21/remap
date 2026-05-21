@@ -1,8 +1,8 @@
 # remap
 
-Turns a physical joystick axis into a **rate-controlled** virtual Xbox 360 stick on Windows.
+Turns a normal self-centering joystick axis into a **virtual throttle lever** on Windows.
 
-Push the stick → output ramps up/down. Release → output holds. Useful for flight sticks (e.g. Thrustmaster T.16000M) driving games that expect an analog gamepad and want trim-style control instead of absolute position.
+Push the stick forward → throttle increases. Pull back → throttle decreases. Release → the stick snaps back to center, but the virtual throttle stays where you left it. The further you deflect, the faster it moves. Output is sent as a virtual Xbox 360 stick axis via ViGEmBus, so any game that reads a standard gamepad will see a throttle that holds position.
 
 ## Requirements
 
